@@ -1,0 +1,52 @@
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container {
+    text-align: center;
+    background-color: #e5f2fb;
+  }
+
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+  }
+  
+
+.input-group label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.input-group input[type="text"],
+.checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 0.25rem;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+body {
+    background-color: lightsteelblue;
+}
